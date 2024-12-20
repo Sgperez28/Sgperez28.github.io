@@ -1,0 +1,57 @@
+body { 
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    height: 90vh;
+    background-image: url("http://picsum.photos/1000/720");
+    background-size: cover;
+    background-position: center;
+}
+.veladura {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgbA(255, 255, 255, .5);
+}
+
+.central { 
+    padding: 50px;
+    margin: 60%;
+}
+
+.central P {
+    text-align: justify;
+}
+
+header, footer {
+    height: 5vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+header h1 {
+margin: 0;
+}
+
+nav {
+    width: 400px;   
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a { 
+    color: #fff;
+    text-decoration: none;
+}
+
