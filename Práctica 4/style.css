@@ -1,0 +1,165 @@
+body { 
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+main {
+    height: 80vh;
+    background-image: url("estudiante-agobiado.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.veladura {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    /** Esto se puede quitar es  la cortinilla blanca -  background-color: rgbA(255, 255, 255, .5); **/
+}
+
+/** Parte central **/
+
+
+.central { 
+    padding: 50px;
+    margin: 60%;
+}
+
+.central P {
+    text-align: justify;
+    width: 60vw;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    opacity: 0.8;
+}
+
+
+.central h2 {
+    text-align: center;
+    text-shadow: #000 ;
+}
+
+/* H2 de la pagina */
+
+.resaltado { 
+    color: #c80303;
+    font-size: 3rem;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.t-pag1 {
+    color: #fff;
+}
+
+.t-pag2 {
+    color: rgb(34, 0, 255); 
+}
+
+.t-pag3 { 
+    color: rgb(0, 255, 47);
+}
+
+.negrita { 
+    font-weight: bolder;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    width: 400px;   
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul:hover {
+    transition: all 1s;
+    color: #777;
+}
+
+a { 
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Contenido cartas */
+
+.card {
+    margin: 15px;
+    padding-right: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: left;
+}
+.card:hover{
+    transform: scale(110%) ;
+}
+
+.card h3 { 
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.card li {
+    text-decoration: none;
+    margin: 5px;
+    text-align: left;
+    margin: 15px;
+}
+
+
+
+
+
+/** parte negra superior e inferior de la web **/
+
+header {
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+footer {
+    height:10vh;
+    background-color: #000;
+    color: #fff;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+footer ul {
+    width:400px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+}
+
+.inferior {
+    height: 6vh;
+    margin-right: 50px;
+    margin-left: 50px ;
+    align-items: center;
+}
