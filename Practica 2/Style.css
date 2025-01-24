@@ -1,0 +1,59 @@
+.aa {
+    font-size: 50px;
+font-weight: bold;
+}
+
+body{
+    background-color: #a7aba4;
+}
+
+.Intro{
+font-size: 15px;
+font-weight: lighter;
+font-style: italic;
+}
+
+h1{ 
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+img.imagen{ 
+    width: 100%;
+    height: auto;
+}
+.accesorios { 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+    text-decoration: underline;
+}
+span.reloj {font-weight: bolder;}
+span.anillo {font-weight: bolder;}
+span.traje {font-weight: bolder;}
+span.ropa{font-weight: bolder;}
+
+.natural{ 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+    text-decoration: underline;
+}
+span.luna{font-weight: bolder;}
+span.suelos {font-weight: bolder;}
+span.bio{font-weight:bolder;}
+
+.fisico {  font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+    text-decoration: underline;}
+span.zapatos {font-weight: bolder;}
+span.tennis {font-weight: bolder;}
+
+ol {
+list-style: disc;
+}
