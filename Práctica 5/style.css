@@ -1,0 +1,15 @@
+body {
+    background-color: #20295D;
+}
+
+h2 {
+    color: #fff;
+}
+
+.card:hover {
+    transform: scale(110%);
+}
+
+.btn {
+    text-align: center;
+}
