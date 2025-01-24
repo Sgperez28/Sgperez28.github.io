@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #efe7da;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/** Título **/
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.encabezado {
+    position: absolute (40px, 20px);
+    top: 50%;
+    left: 50%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px auto;
+}
+
+.encabezado h1 {
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(84, 66, 14);
+    transition: all 1s 0.1ms;
+    transform: translate(0, -1500px);
+}
+
+.encabezado.visible h1 {
+    transform: translate(0, 0px);
+}
+
+/*** Main ***/
+
+main {
+    padding: 20px;
+}
+
+
+/*** palabra opacidad 0 a 1 ***/
+
+.resaltado { 
+    font-weight: bolder;
+    color: rgb(206, 160, 21);
+}
+
+.aparecer { 
+    transition: all 1s 1s;
+    opacity: 0;
+}
+    
+.aparecer.visible {
+    opacity: 1;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+/** Animación h2 (skew) nombres postres polvorosa y golfeado**/
+
+h2 {
+    color: #444;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+h3 {
+    color: #444;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/*** Imagenes ***/
+
+.img-full {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.zoom:hover {
+    transform: scale(110%);
+    transition: all 1s;
+}
+
+.zoom-2:hover {
+    transform: scale(90%);
+    transition: all 1s;
+}
+
+/* Cards */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+}
+
+
+/*****+ Listas ingredientes y elaboración *****/
+
+.lista-ing, .lista {
+    padding: 0;
+}
+
+.sombrero { 
+    display: flex;
+    flex-direction: row;
+}
+
+/** Animaciones laterales **/
+
+.der img { 
+    transition: all 1s 10ms;
+    transform: translate(1500px, 0);
+}
+    
+.der.visible img{
+    transform: translate(0px, 0);
+}
+
+.iz img { 
+    transition: all 1s 10ms;
+    transform: translate(-1500px, 0);
+}
+    
+.iz.visible img{
+    transform: translate(0px, 0);
+}
+
+.lista-ing li, .lista li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.lista-ing li::before, .lista li::before {
+    content: '-';
+    color: #000000;
+    padding-top: 15px;
+    padding-right: 3px;
+}
+
+/*** Cuadro dificultad ***/
+
+.bg-especificaciones {
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: solid 1px;
+    border-color: solid rgba(0, 0, 0, 0.1);
+}
+
+.dificultad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g1 {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.separador-h {
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    margin: 10px 0;
+}
+
+/* pasos */
+
+.elaboracion {
+    margin-top: 20px;
+}
+
+.elaboracion h2 {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.pasos {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.skew:hover {
+    transform: skew(-5deg, 0deg);
+}
+
+.rotate:hover {
+    transform: rotate(-30deg);
+}
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
