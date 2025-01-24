@@ -1,0 +1,86 @@
+body{
+    font-family:"Nunito";
+    background-color: #fce5e6 ;
+}
+
+.section-photo {
+    height: 100vh;
+    background: url('imagen\ header.png') no-repeat center center;
+    background-size: contain;
+}
+
+h1, h2, h3{
+    font-family: "Playfair Display";
+    color: #ba1b1b ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h4{
+    font-family: "Playfair Display";
+    color: #ba1b1b ;
+    font-weight: 300;
+}
+
+p{
+    color: #721d1d ;
+}
+
+
+.card-body {
+    background-color: #721d1d;
+}
+
+.card-title{
+    color: #fce5e6;
+    text-transform: uppercase;
+}
+
+.card-text{
+    color: #fce5e6;
+}
+.bg-pasion{
+    background-color: #ba1b1b;
+}
+
+.bg-pasion h1,.bg-pasion h5,.bg-pasion p {
+    color: #fce5e6;
+}
+
+.bg-pasion h5 {
+    font-weight: bold;
+}
+
+.agrandado h5{
+    font-family: "Playfair Display";
+}
+
+.btn-pasion{
+    background-color: #ba1b1b;
+    color: #fce5e6;
+}
+
+/* Efectos */
+
+.agrandado {
+    transition: transform 0.3s ease; 
+}
+
+.agrandado:hover {
+    transform: scale(110%);
+}
+
+
+/* Opacidad imágenes */
+.nitidez { 
+    opacity: 0.5;
+}
+
+.nitidez:hover { 
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
